@@ -1,7 +1,21 @@
 {
   "name": "ngx-patchwork",
-  "version": "0.0.0",
+  "description": "angular4+ library for creating friendly IHM components",
+  "version": "0.0.1",
+  "author": {
+    "name": "Akram TABKA",
+    "email": "tabkram@gmail.com",
+    "url": "http://tabka.net/"
+  },
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "UI-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabkram/ngx-patchwork.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +24,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0"
+  },
   "dependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
